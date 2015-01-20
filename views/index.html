@@ -8,24 +8,48 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/public/stylesheets">
     <!-- Bootstrap Required Links -->
 </head>
 <body>
-    <div class="container">
-        <!-- Header -->
-        <div>
-            <h1>Cetta Tech Apps</h1>
-            <p>This is created by Jeremy Pagley. This site is for the promotion of some of the best games on the App Store or
-                Google Play Store. Here you can download all of the games made by © Cetta Tech LLC and play them as much as you like!</p>
+    <div class="navbar navbar-inverse navbar-static-top">
+        <a href="/" class="navbar-brand">Cetta Tech Apps</a>
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <div class="container">
+            <div class="collapse navbar-collapse navHeaderCollapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/">About</a> </li>
+                    <li><a href="/">Games</a> </li>
+                    <li><a href="/">Contact</a> </li>
+                </ul>
+            </div>
         </div>
+    </div>
 
+    <div class="jumbotron">
+        <h1>Cetta Tech Games</h1>
+        <p>This is created by Jeremy Pagley. This site is for the promotion of some of the best games on the App Store or
+            Google Play Store. Here you can download all of the games made by © Cetta Tech LLC</p>
+    </div>
+
+    <div class="container">
         <!-- Body -->
         <div>
-            <h3><a href="http://unity3d.com">Unity Engine</a></h3>
+            <h3>Games</h3>
+
+            <a href="/"><button class="btn-primary btn">Jump Now!</button></a>
+            <a href="/"><button class="btn-primary btn">Flapling</button></a>
+            <a href="/"><button class="btn-primary btn">Spubble</button></a>
+
+            <h3>About</h3>
             <p>These games were all made using the Unity Engine technology and we highly reccomend using Unity's Game Engine as it is not just fast and powerful, but also extremely easy to use!</p>
             <p>If you need any support for our amazing games that never break or glitch, please contact us using the form below.
                 Note it is highly unlikey tha you will need help as everything is perfectly made, never breaks, and very self explanatory!</p>
-            <img src="http://www.solitaireinfosys.com/wp-content/uploads/2014/09/unityheader.jpg" height="100" width="250"/>
+            <a href="http://unity3d.com"><img src="http://www.solitaireinfosys.com/wp-content/uploads/2014/09/unityheader.jpg" height="100" width="250"/></a>
         </div>
 
         <!-- Footer -->
@@ -33,6 +57,7 @@
             <p>&copy; 2015 Cetta Tech LLC</p>
         </div>
     </div>
+
 
     <script src="/public/bootstrap/js/bootstrap.min.js"></script>
 </body>
