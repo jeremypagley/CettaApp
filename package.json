@@ -2,8 +2,8 @@
   "name": "CettaApp",
   "version": "1.0.0",
   "dependencies": {
-    "express": "~4.10.0",
-    "ejs": "~1.0.0"
+    "bootstrap": "^3.3.2",
+    "ejs": "~1.0.0",
+    "express": "~4.10.0"
   }
-
 }
