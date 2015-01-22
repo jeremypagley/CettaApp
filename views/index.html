@@ -6,42 +6,65 @@
     <title>Cetta Tech</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="/public/stylesheets">
-    <!-- Bootstrap Required Links -->
+
+    <link href="/public/style.css" rel="stylesheet"/>
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-static-top">
-        <a href="/" class="navbar-brand">Cetta Tech Apps</a>
-        <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-        <div class="container">
-            <div class="collapse navbar-collapse navHeaderCollapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="/">About</a> </li>
-                    <li><a href="/">Games</a> </li>
-                    <li><a href="/">Contact</a> </li>
-                </ul>
-            </div>
-        </div>
-    </div>
 
-    <div class="jumbotron">
-        <h1>Cetta Tech Games</h1>
-        <p>This is created by Jeremy Pagley. This site is for the promotion of some of the best games on the App Store or
-            Google Play Store. Here you can download all of the games made by © Cetta Tech LLC</p>
+<!--<h1 class="jeremy">Jeremy</h1>-->
+    <!--<div class="navbar navbar-inverse navbar-static-top">-->
+        <!--<a href="/" class="navbar-brand">Cetta Tech Apps</a>-->
+        <!--<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">-->
+            <!--<span class="icon-bar"></span>-->
+            <!--<span class="icon-bar"></span>-->
+            <!--<span class="icon-bar"></span>-->
+        <!--</button>-->
+        <!--<div class="container">-->
+            <!--<div class="collapse navbar-collapse navHeaderCollapse">-->
+                <!--<ul class="nav navbar-nav navbar-right">-->
+                    <!--<li><a href="/">About</a> </li>-->
+                    <!--<li><a href="/">Games</a> </li>-->
+                    <!--<li><a href="/">Contact</a> </li>-->
+                <!--</ul>-->
+            <!--</div>-->
+        <!--</div> http://res2.windows.microsoft.com/resbox/en/windows%207/main/565a628e-00ea-45cd-b8a5-439bc2382bde_5.jpg-->
+    <!--</div>-->
+
+        <!--<div>-->
+            <!--<img src="/public/images/cettaapp_header_graphic.jpg" alt="Graphic Header" class="img-responsive" style="opacity: 0.5"/>-->
+        <!--</div>-->
+<div class="container">
+<div class="item">
+    <div class="item-content">
+        <h1>
+            <span class="primary">Innovation.</span>
+            <span class="secondary">Everyday.</span>
+        </h1>
+        <p>
+            Apps is committed to focusing on the best experience possible for our clients
+            while we seamlessly bring your ideas to life. Right down to each pixel.
+        </p>
     </div>
+</div>
+</div>
+
+    <!--<div class="jumbotron text-center" style="background-color: #222222">-->
+        <!--<h1>Cetta Tech Games</h1>-->
+        <!--<p>This is created by Jeremy Pagley. This site is for the promotion of some of the best games on the App Store or-->
+            <!--Google Play Store. Here you can download all of the games made by © Cetta Tech LLC</p>-->
+    <!--</div>-->
+    <!--<div class="jumbotron text-center" style="background-color: #204d74">-->
+        <!--<h1>Jump Now!</h1>-->
+        <!--<p>This is created by Jeremy Pagley. This site is for the promotion of some of the best games on the App Store or-->
+            <!--Google Play Store. Here you can download all of the games made by © Cetta Tech LLC</p>-->
+    <!--</div>-->
 
     <div class="container">
         <!-- Body -->
         <div>
-            <h3>Games</h3>
-
-            <a href="/"><button class="btn-primary btn">Jump Now!</button></a>
+            <h3 class="text-color-red">Games</h3>
+            <a href="#jumpnow" data-toggle="modal"><button class="btn-primary btn">Jump Now!</button></a>
             <a href="/"><button class="btn-primary btn">Flapling</button></a>
             <a href="/"><button class="btn-primary btn">Spubble</button></a>
 
@@ -58,7 +81,23 @@
         </div>
     </div>
 
-
-    <script src="/public/bootstrap/js/bootstrap.min.js"></script>
+    <div class="modal fade" id="jumpnow" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4>Jump Now!</h4>
+                </div>
+                <div class="modal-body">
+                    <p>This is a very addicting and thrilling game. Use the dopuss characters
+                        to dodge the falling evil balls as they attack your prince and princess!</p>
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-default" data-dismiss="modal">Close</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!--<script src="/public/bootstrap/js/bootstrap.min.js"></script>-->
 </body>
 </html>

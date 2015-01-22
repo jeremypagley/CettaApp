@@ -1,0 +1,10 @@
+.item {
+    position: relative;
+    width: 100%;
+
+    background-color: #fff;
+}
+
+.item-content {
+    width: 900px;
+}
