@@ -18,10 +18,6 @@ div {
     width: 100%;  /*this will make the div take 100% of the full content*/
 }
 
-.background-main-image {
-    background-image: url("/images/cyan_starry_night.jpg");
-}
-
 .container {
     /*height: 800px;*/
     /*height: 100vh;*/
@@ -78,9 +74,9 @@ div {
     position: relative;
 
     width: 100%;
-    height: 300px;
+    height: 600px;
 
-    background-color: rgba(101, 107, 137, 0.51);
+    background-color: rgba(94, 120, 93, 0.85);
 }
 
 .header-title {
@@ -130,11 +126,11 @@ div {
     left: 50px;
     bottom: 100px;
 
-    font-size: 1.0em;
+    font-size: 3.0em;
     font-family: 'Raleway-exlight', sans-serif;
     font-weight: 100;
 
-    /*text-transform: uppercase;*/
+    text-transform: lowercase;
     letter-spacing: 3px;
 
     color: #fff;
@@ -153,7 +149,7 @@ div {
     font-family: 'Raleway-reg', sans-serif;
     font-weight: 400;
 
-    /*text-transform: lowercase;*/
+    text-transform: lowercase;
     letter-spacing: 0px;
     line-height: 40px;
 
@@ -173,17 +169,17 @@ div {
     background-color: #fff;
 }
 
-/*.video-container {*/
-    /*position:absolute;*/
-    /*height:100%;*/
-    /*width:100%;*/
-    /*overflow: hidden;*/
-/*}*/
+.video-container {
+    position:absolute;
+    height:100%;
+    width:100%;
+    overflow: hidden;
+}
 
-/*.video-container video {*/
-    /*min-width: 100%;*/
-    /*min-height: 100%;*/
-/*}*/
+.video-container video {
+    min-width: 100%;
+    min-height: 100%;
+}
 
 .item {
     position: absolute;
@@ -193,7 +189,7 @@ div {
 }
 
 .item.jumpnow {
-    background-color: rgba(88, 72, 82, 0.75);
+    background-color: rgb(88, 72, 82);
     padding-bottom: 30px;
     height: 900px;
     padding-top: 30px;
@@ -238,7 +234,7 @@ div {
 }
 
 .item.flaptronaut {
-    background-color: rgba(42, 30, 46, 0.76);
+    background-color: rgb(42, 30, 46);
     padding-bottom: 30px;
     height: 900px;
     padding-top: 30px;
@@ -359,7 +355,7 @@ div {
 .footer {
     position: relative;
     width: 100%;
-    height: 680px;
+    height: 500px;
 
     background-color: rgba(25, 25, 25, 1.0);
 }
@@ -411,7 +407,7 @@ div {
     font-family: 'Raleway-reg', sans-serif;
     font-weight: 400;
 
-    /*text-transform: lowercase;*/
+    text-transform: lowercase;
     letter-spacing: 0px;
     line-height: 40px;
 
@@ -449,15 +445,6 @@ div {
     color: #cacaca;
 }
 
-.header-content {
-    position: relative;
-
-    width: 100%;
-    height: 700px;
-
-    background-color: rgba(32, 77, 116, 0.75);
-}
-
 @media (min-width: 1100px) {
     .header-title {
         font-size: 1.7em;
@@ -485,12 +472,12 @@ div {
         height: 500px;
     }
 
-    /*.header-content {*/
-        /*height: 500px;*/
-    /*}*/
+    .header-content {
+        height: 500px;
+    }
 
     .component {
-        height: 600px;
+        height: 500px;
     }
 
     .header-title {
@@ -556,7 +543,7 @@ div {
     }
 }
 
-@media (max-width: 415px) {
+@media (max-width: 415) {
     .header-contact {
         display: none;
     }

@@ -11,6 +11,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="public/styles/style.css" rel="stylesheet">
 
+    <script src="js/script.js"></script>
+
 <!-- Parallax Effect -->
 <style type="text/css">
     *{
@@ -35,7 +37,7 @@
     function parallex() {
         image = document.getElementById('image');
         ypos = window.pageYOffset;
-        image.style.top = ypos * .7+ 'px';
+        image.style.top = ypos * .9+ 'px';
     }
     window.addEventListener('scroll', parallex),false;
 
@@ -43,129 +45,143 @@
 <!-- Parallax Effect -->
 
 </head>
-<body style="background-color: #5bb5a5">
-        <img id="image" alt="1" src="images/cettaapp_header_graphic.jpg" class="img-responsive" style="margin-bottom: 100px" />
+<body style="background-color: #656B89">
 
-        <!-- Jump Now! Section -->
-        <div class="item jumpnow" style="margin-top: -75px">
-            <div class="item-content">
-                <div align="middle" style="padding-bottom: 20px">
-                    <img class="img-circle"  src="images/jumpnow_circle_graphic.png" width="300px" height="300px" />
-                </div>
-                    <h1>Jump Now!</h1>
-                    <p>Is very exciting and fast-pace game where speed and agility rule.
-                        By tapping each side of the screen you can control each Dopuss character.</p>
-                    <!--style="margin-top: 1%; margin-left: 20%"-->
+    <div class="component" style="margin-bottom: 100px">
+        <div class="header-content">
+            <div class="header-title">Cetta Tech</div>
+            <div class="header-message"><p><small>Fun. Addicting. And Amazing Games.<br>All Free.</small></div>
+            <img id="image" src="images/cyan_starry_night.jpg" class="img-responsive" style="margin-bottom: 100px; width: 1800px; height: 1000px" />
+            <a href="https://itunes.apple.com/us/artist/john-pagley/id840382873">
+                <div class="header-button">Apple</div>
+            </a>
+            <a href="https://play.google.com/store/apps/developer?id=Jeremy%20Pagley&hl=en">
+                <div class="header-button col-md-offset-2">Android</div>
+            </a>
+        </div>
+    </div>
 
-                    <div class="col-md-3 col-md-offset-3">
-                        <a href="https://itunes.apple.com/us/app/jump-now!/id953129795?ls=1&mt=8">
-                            <div class="item-button light">Apple</div>
-                        </a>
-                    </div>
-                    <!--style="margin-top: 1%; margin-left: 9%"-->
-                    <div class="col-md-3">
-                        <a href="https://play.google.com/store/apps/details?id=com.CettaTech.JumpNow">
-                            <div class="item-button light">Android</div>
-                        </a>
-                    </div>
+
+    <!-- Flapling Section -->
+    <div class="item flapling">
+        <div class="item-content">
+            <div align="middle" style="padding-bottom: 20px">
+                <img class="img-circle"  src="images/flapling_circle_graphic.png" width="300px" height="300px" />
+            </div>
+            <h1>Flapling</h1>
+            <p>Is very exciting and fast-pace game where speed and agility rule.
+                By tapping each side of the screen you can control each Dopuss character.</p>
+            <!--style="margin-top: 1%; margin-left: 20%"-->
+
+            <div class="col-md-3 col-md-offset-3">
+                <a href="https://itunes.apple.com/us/app/jump-now!/id953129795?ls=1&mt=8">
+                    <div class="item-button light">Apple</div>
+                </a>
+            </div>
+            <!--style="margin-top: 1%; margin-left: 9%"-->
+            <div class="col-md-3">
+                <a href="https://play.google.com/store/apps/details?id=com.CettaTech.JumpNow">
+                    <div class="item-button light">Android</div>
+                </a>
             </div>
         </div>
+    </div>
 
-        <!-- Flapling Section -->
-        <div class="item flapling" style="margin-top: 630px">
-            <div class="item-content">
-                <div align="middle" style="padding-bottom: 20px">
-                    <img class="img-circle"  src="images/flapling_circle_graphic.png" width="300px" height="300px" />
-                </div>
-                <h1>Flapling</h1>
-                <p>Is very exciting and fast-pace game where speed and agility rule.
-                    By tapping each side of the screen you can control each Dopuss character.</p>
-                <!--style="margin-top: 1%; margin-left: 20%"-->
+    <!-- Jump Now! Section -->
+    <div class="item jumpnow" style="margin-top: 710px">
+        <div class="item-content">
+            <div align="middle" style="padding-bottom: 20px">
+                <img class="img-circle"  src="images/jumpnow_circle_graphic.png" width="300px" height="300px" />
+            </div>
+            <h1>Jump Now!</h1>
+            <p>Is very exciting and fast-pace game where speed and agility rule.
+                By tapping each side of the screen you can control each Dopuss character.</p>
+            <!--style="margin-top: 1%; margin-left: 20%"-->
 
-                <div class="col-md-3 col-md-offset-3">
-                    <a href="https://itunes.apple.com/us/app/jump-now!/id953129795?ls=1&mt=8">
-                        <div class="item-button light">Apple</div>
-                    </a>
-                </div>
-                <!--style="margin-top: 1%; margin-left: 9%"-->
-                <div class="col-md-3">
-                    <a href="https://play.google.com/store/apps/details?id=com.CettaTech.JumpNow">
-                        <div class="item-button light">Android</div>
-                    </a>
-                </div>
+            <div class="col-md-3 col-md-offset-3">
+                <a href="https://itunes.apple.com/us/app/jump-now!/id953129795?ls=1&mt=8">
+                    <div class="item-button light">Apple</div>
+                </a>
+            </div>
+            <!--style="margin-top: 1%; margin-left: 9%"-->
+            <div class="col-md-3">
+                <a href="https://play.google.com/store/apps/details?id=com.CettaTech.JumpNow">
+                    <div class="item-button light">Android</div>
+                </a>
             </div>
         </div>
+    </div>
 
-        <!-- Spubble Section -->
-        <div class="item spubble" style="margin-top: 1335px">
-            <div class="item-content">
-                <div align="middle" style="padding-bottom: 20px">
-                    <img class="img-circle"  src="images/spubble_circle_graphic.png" width="300px" height="300px" />
-                </div>
-                <h1>Spubble</h1>
-                <p>Is very exciting and fast-pace game where speed and agility rule.
-                    By tapping each side of the screen you can control each Dopuss character.</p>
-                <!--style="margin-top: 1%; margin-left: 20%"-->
+    <!-- Spubble Section -->
+    <div class="item spubble" style="margin-top: 1335px">
+        <div class="item-content">
+            <div align="middle" style="padding-bottom: 20px">
+                <img class="img-circle"  src="images/spubble_circle_graphic.png" width="300px" height="300px" />
+            </div>
+            <h1>Spubble</h1>
+            <p>Is very exciting and fast-pace game where speed and agility rule.
+                By tapping each side of the screen you can control each Dopuss character.</p>
+            <!--style="margin-top: 1%; margin-left: 20%"-->
 
-                <div class="col-md-3 col-md-offset-3">
-                    <a href="https://itunes.apple.com/us/app/jump-now!/id953129795?ls=1&mt=8">
-                        <div class="item-button light">Apple</div>
-                    </a>
-                </div>
-                <!--style="margin-top: 1%; margin-left: 9%"-->
-                <div class="col-md-3">
-                    <a href="https://play.google.com/store/apps/details?id=com.CettaTech.JumpNow">
-                        <div class="item-button light">Android</div>
-                    </a>
-                </div>
+            <div class="col-md-3 col-md-offset-3">
+                <a href="https://itunes.apple.com/us/app/jump-now!/id953129795?ls=1&mt=8">
+                    <div class="item-button light">Apple</div>
+                </a>
+            </div>
+            <!--style="margin-top: 1%; margin-left: 9%"-->
+            <div class="col-md-3">
+                <a href="https://play.google.com/store/apps/details?id=com.CettaTech.JumpNow">
+                    <div class="item-button light">Android</div>
+                </a>
             </div>
         </div>
+    </div>
 
-        <!-- Flaptronaut Section -->
-        <div class="item flaptronaut" style="margin-top: 2040px">
-            <div class="item-content">
-                <div align="middle" style="padding-bottom: 20px">
-                    <img class="img-circle"  src="images/flaptronaut_circle_graphic.png" width="300px" height="300px" />
-                </div>
-                <h1>Flaptronaut</h1>
-                <p>Is very exciting and fast-pace game where speed and agility rule.
-                    By tapping each side of the screen you can control each Dopuss character.</p>
-                <!--style="margin-top: 1%; margin-left: 20%"-->
+    <!-- Flaptronaut Section -->
+    <div class="item flaptronaut" style="margin-top: 2040px">
+        <div class="item-content">
+            <div align="middle" style="padding-bottom: 20px">
+                <img class="img-circle"  src="images/flaptronaut_circle_graphic.png" width="300px" height="300px" />
+            </div>
+            <h1>Flaptronaut</h1>
+            <p>Is very exciting and fast-pace game where speed and agility rule.
+                By tapping each side of the screen you can control each Dopuss character.</p>
+            <!--style="margin-top: 1%; margin-left: 20%"-->
 
-                <div class="col-md-3 col-md-offset-3">
-                    <a href="https://itunes.apple.com/us/app/jump-now!/id953129795?ls=1&mt=8">
-                        <div class="item-button light">Apple</div>
-                    </a>
-                </div>
-                <!--style="margin-top: 1%; margin-left: 9%"-->
-                <div class="col-md-3">
-                    <a href="https:/play.google.com/store/apps/details?id=com.CettaTech.JumpNow">
-                        <div class="item-button light">Android</div>
-                    </a>
-                </div>
+            <div class="col-md-3 col-md-offset-3">
+                <a href="https://itunes.apple.com/us/app/jump-now!/id953129795?ls=1&mt=8">
+                    <div class="item-button light">Apple</div>
+                </a>
+            </div>
+            <!--style="margin-top: 1%; margin-left: 9%"-->
+            <div class="col-md-3">
+                <a href="https:/play.google.com/store/apps/details?id=com.CettaTech.JumpNow">
+                    <div class="item-button light">Android</div>
+                </a>
             </div>
         </div>
+    </div>
 
-        <!-- Footer Section -->
-        <div class="footer" style="margin-top: 2850px">
-            <div class="footer-content">
-                <h1>© Cetta Tech LLC</h1>
-                <p>Check out all of our games in either the App Store or Google Play Store</p>
-                <!--style="margin-top: 1%; margin-left: 20%"-->
+    <!-- Footer Section -->
+    <div class="footer" style="margin-top: 2850px">
+        <div class="footer-content">
+            <h1>© Cetta Tech LLC</h1>
+            <p>Check out all of our games in either the App Store or Google Play Store</p>
+            <!--style="margin-top: 1%; margin-left: 20%"-->
 
-                <div class="col-md-3 col-md-offset-3">
-                    <a href="https://itunes.apple.com/us/artist/john-pagley/id840382873">
-                        <div class="footer-button light">Apple</div>
-                    </a>
-                </div>
-                <!--style="margin-top: 1%; margin-left: 9%"-->
-                <div class="col-md-3">
-                    <a href="https://play.google.com/store/apps/developer?id=Jeremy%20Pagley&hl=en">
-                        <div class="footer-button light">Android</div>
-                    </a>
-                </div>
+            <div class="col-md-3 col-md-offset-3">
+                <a href="https://itunes.apple.com/us/artist/john-pagley/id840382873">
+                    <div class="footer-button light">Apple</div>
+                </a>
+            </div>
+            <!--style="margin-top: 1%; margin-left: 9%"-->
+            <div class="col-md-3">
+                <a href="https://play.google.com/store/apps/developer?id=Jeremy%20Pagley&hl=en">
+                    <div class="footer-button light">Android</div>
+                </a>
             </div>
         </div>
+    </div>
 
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
             <script src="js/bootstrap.min.js"></script>
