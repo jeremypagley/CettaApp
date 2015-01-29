@@ -3,101 +3,210 @@
 <head lang="en">
     <!-- Bootstrap Required Links -->
     <meta charset="UTF-8">
-    <title>Cetta Tech</title>
+    <title>New Cetta</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
-    <link href="/public/style.css" rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/style.css" rel="stylesheet">
+
+    <script src="/bootstrap/js/script.js"></script>
+
+<!-- Parallax Effect -->
+<style type="text/css">
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    #image {
+        position: relative;
+        z-index: -1
+    }
+    #content {  /
+        position: relative;
+        z-index: 1;
+    }
+</style>
+
+<script type="text/javascript">
+    var ypos,image;
+    function parallex() {
+        image = document.getElementById('image');
+        ypos = window.pageYOffset;
+        image.style.top = ypos * .8+ 'px';
+    }
+    window.addEventListener('scroll', parallex),false;
+
+</script>
+<!-- Parallax Effect -->
+
 </head>
-<body>
+<body style="background-color: #191919">
 
-<!--<h1 class="jeremy">Jeremy</h1>-->
-    <!--<div class="navbar navbar-inverse navbar-static-top">-->
-        <!--<a href="/" class="navbar-brand">Cetta Tech Apps</a>-->
-        <!--<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">-->
-            <!--<span class="icon-bar"></span>-->
-            <!--<span class="icon-bar"></span>-->
-            <!--<span class="icon-bar"></span>-->
-        <!--</button>-->
-        <!--<div class="container">-->
-            <!--<div class="collapse navbar-collapse navHeaderCollapse">-->
-                <!--<ul class="nav navbar-nav navbar-right">-->
-                    <!--<li><a href="/">About</a> </li>-->
-                    <!--<li><a href="/">Games</a> </li>-->
-                    <!--<li><a href="/">Contact</a> </li>-->
-                <!--</ul>-->
-            <!--</div>-->
-        <!--</div> http://res2.windows.microsoft.com/resbox/en/windows%207/main/565a628e-00ea-45cd-b8a5-439bc2382bde_5.jpg-->
-    <!--</div>-->
+    <div class="component" style="margin-bottom: 100px">
+        <div class="header-content">
+            <img id="image" src="/images/cyan_starry_night.jpg" class="img-responsive" style="margin-bottom: 100px; width: 2100px; height: 1450px" />
 
-        <!--<div>-->
-            <!--<img src="/public/images/cettaapp_header_graphic.jpg" alt="Graphic Header" class="img-responsive" style="opacity: 0.5"/>-->
-        <!--</div>-->
-<div class="container">
-<div class="item">
-    <div class="item-content">
-        <h1>
-            <span class="primary">Innovation.</span>
-            <span class="secondary">Everyday.</span>
-        </h1>
-        <p>
-            Apps is committed to focusing on the best experience possible for our clients
-            while we seamlessly bring your ideas to life. Right down to each pixel.
-        </p>
-    </div>
-</div>
-</div>
-
-    <!--<div class="jumbotron text-center" style="background-color: #222222">-->
-        <!--<h1>Cetta Tech Games</h1>-->
-        <!--<p>This is created by Jeremy Pagley. This site is for the promotion of some of the best games on the App Store or-->
-            <!--Google Play Store. Here you can download all of the games made by © Cetta Tech LLC</p>-->
-    <!--</div>-->
-    <!--<div class="jumbotron text-center" style="background-color: #204d74">-->
-        <!--<h1>Jump Now!</h1>-->
-        <!--<p>This is created by Jeremy Pagley. This site is for the promotion of some of the best games on the App Store or-->
-            <!--Google Play Store. Here you can download all of the games made by © Cetta Tech LLC</p>-->
-    <!--</div>-->
-
-    <div class="container">
-        <!-- Body -->
-        <div>
-            <h3 class="text-color-red">Games</h3>
-            <a href="#jumpnow" data-toggle="modal"><button class="btn-primary btn">Jump Now!</button></a>
-            <a href="/"><button class="btn-primary btn">Flapling</button></a>
-            <a href="/"><button class="btn-primary btn">Spubble</button></a>
-
-            <h3>About</h3>
-            <p>These games were all made using the Unity Engine technology and we highly reccomend using Unity's Game Engine as it is not just fast and powerful, but also extremely easy to use!</p>
-            <p>If you need any support for our amazing games that never break or glitch, please contact us using the form below.
-                Note it is highly unlikey tha you will need help as everything is perfectly made, never breaks, and very self explanatory!</p>
-            <a href="http://unity3d.com"><img src="http://www.solitaireinfosys.com/wp-content/uploads/2014/09/unityheader.jpg" height="100" width="250"/></a>
-        </div>
-
-        <!-- Footer -->
-        <div>
-            <p>&copy; 2015 Cetta Tech LLC</p>
-        </div>
-    </div>
-
-    <div class="modal fade" id="jumpnow" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4>Jump Now!</h4>
+            <div class="item-content" style="margin-top: -1560px">
+                <div align="middle" style="padding-bottom: 20px">
+                    <img class="img-circle"  src="/images/cettatech_circle_graphic.png" width="300px" height="300px" />
                 </div>
-                <div class="modal-body">
-                    <p>This is a very addicting and thrilling game. Use the dopuss characters
-                        to dodge the falling evil balls as they attack your prince and princess!</p>
-                </div>
-                <div class="modal-footer">
-                    <a class="btn btn-default" data-dismiss="modal">Close</a>
+                <p style="color: #ffffff;">Exciting. Addicting. Fun Games. All Free.</p>
+                <div class="col-md-12">
+                    <a href="mailto:jkpagley@yahoo.com">
+                        <div class="item-button light">Contact</div>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!--<script src="/public/bootstrap/js/bootstrap.min.js"></script>-->
+
+    <!-- Flapling Section -->
+    <div class="item flapling">
+        <div class="item-content" style="margin-top: 90px">
+            <div align="middle" style="padding-bottom: 20px">
+                <img class="img-circle"  src="/images/flapling_circle_graphic.png" width="300px" height="300px" />
+            </div>
+            <h1>Flapling</h1>
+            <p>Flap, fly, and dodge your way through the sky with Flapling! Tap on your device
+                to make Ling the bird fly. Avoid the harmful stormy clouds while you collect treasure
+                coins and power-ups to beat your high score.</p>
+            <div class="col-md-3 col-md-offset-3">
+                <a href="https://itunes.apple.com/us/app/jump-now!/id953129795?ls=1&mt=8">
+                    <div class="item-button light">Apple</div>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="https://play.google.com/store/apps/details?id=com.CettaTech.JumpNow">
+                    <div class="item-button light">Android</div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jump Now! Section -->
+    <div class="item jumpnow" style="margin-top: 900px">
+        <div class="item-content" style="margin-top: 90px">
+            <div align="middle" style="padding-bottom: 20px">
+                <img class="img-circle"  src="/images/jumpnow_circle_graphic.png" width="300px" height="300px" />
+            </div>
+            <h1>Jump Now!</h1>
+            <p>Is very exciting and fast-pace game where speed and agility rule.
+                By tapping each side of the screen you can control each Dopuss character.
+                Easy to play but hard to master. With high quality modern retro graphics and sound!</p>
+            <div class="col-md-3 col-md-offset-3">
+                <a href="https://itunes.apple.com/us/app/jump-now!/id953129795?ls=1&mt=8">
+                    <div class="item-button light">Apple</div>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="https://play.google.com/store/apps/details?id=com.CettaTech.JumpNow">
+                    <div class="item-button light">Android</div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Spubble Section -->
+    <div class="item spubble" style="margin-top: 1800px">
+        <div class="item-content" style="margin-top: 90px">
+            <div align="middle" style="padding-bottom: 20px">
+                <img class="img-circle"  src="/images/spubble_circle_graphic.png" width="300px" height="300px" />
+            </div>
+            <h1>Spubble</h1>
+            <p>Is a fun and exciting game that will truly test your speed
+                and accuracy skills. You must tap the blue and green bubbles before they hit the
+                bottom but beware of the evil red bubbles. And use various power-ups to get the highest score. </p>
+            <div class="col-md-3 col-md-offset-3">
+                <a href="https://itunes.apple.com/us/app/jump-now!/id953129795?ls=1&mt=8">
+                    <div class="item-button light">Apple</div>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="https://play.google.com/store/apps/details?id=com.CettaTech.JumpNow">
+                    <div class="item-button light">Android</div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Flaptronaut Section -->
+    <div class="item flaptronaut" style="margin-top: 2700px">
+        <div class="item-content" style="margin-top: 90px">
+            <div align="middle" style="padding-bottom: 20px">
+                <img class="img-circle"  src="/images/flaptronaut_circle_graphic.png" width="300px" height="300px" />
+            </div>
+            <h1>Flaptronaut</h1>
+            <p> Is an addicting but very difficult game. Flap your way to the ends of the galaxy! A parody of
+                the #1 smash hit game! Defy physics and help the first astronaut bird
+                to flap his way around the moon!</p>
+            <div class="col-md-3 col-md-offset-3">
+                <a href="https://itunes.apple.com/us/app/jump-now!/id953129795?ls=1&mt=8">
+                    <div class="item-button light">Apple</div>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="https:/play.google.com/store/apps/details?id=com.CettaTech.JumpNow">
+                    <div class="item-button light">Android</div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer" style="margin-top: 3700px">
+        <div class="footer-content">
+            <h1>Cetta Tech LLC</h1>
+            <p>Please feel free to contact us for support, requests, or anything else.</p>
+
+            <div class="col-md-12">
+                <a href="mailto:jkpagley@yahoo.com">
+                    <div class="footer-button light">Contact</div>
+                </a>
+            </div>
+            <!--<div class="col-md-4 col-sm-6">-->
+                <!--<img class="header-iphone header-device-glow" src="images/iphone_device.png" style="width: 160px; height: 270px;">-->
+            <!--</div>-->
+            <!--<div class="col-md-4 col-sm-6">-->
+                <!--<img class="header-android header-device-glow" src="images/android_device.png" style="width: 160px; height: 270px;">-->
+            <!--</div>-->
+
+        </div>
+    </div>
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+            <script src="/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
+
+
+<!--<div class="col-md-3" style="left: 49%">-->
+<!--<img src="images/apple-app.png" width="120px" height="50px">-->
+<!--</div>-->
+<!--<div class="col-md-3" style="left: 1.3%">-->
+<!--<img src="images/android-app.png" width="120px" height="50px">-->
+<!--</div>-->
+
+<!-- Buttons -->
+<!--<a href="#jumpnow" data-toggle="modal"><button class="btn-primary btn">Jump Now!</button></a>-->
+<!--<a href="/"><button class="btn-primary btn">Flapling</button></a>-->
+<!--<a href="/"><button class="btn-primary btn">Spubble</button></a>-->
+
+<!-- Modal - Pop-Up -->
+<!--<div class="modal fade" id="jumpnow" role="dialog">-->
+<!--<div class="modal-dialog">-->
+<!--<div class="modal-content">-->
+<!--<div class="modal-header">-->
+<!--<h4>Jump Now!</h4>-->
+<!--</div>-->
+<!--<div class="modal-body">-->
+<!--<p>This is a very addicting and thrilling game. Use the dopuss characters-->
+<!--to dodge the falling evil balls as they attack your prince and princess!</p>-->
+<!--</div>-->
+<!--<div class="modal-footer">-->
+<!--<a class="btn btn-default" data-dismiss="modal">Close</a>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
