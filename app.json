@@ -1,0 +1,7 @@
+{
+  "name": "CettaApp Website - Node.js App",
+  "description": "The apps.cettatech.com app with the backend as Node.js.",
+  "repository": "https://github.com/jeremypagley/CettaApp",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "static"]
+}

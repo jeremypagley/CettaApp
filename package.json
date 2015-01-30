@@ -6,5 +6,17 @@
     "ejs": "~1.0.0",
     "express": "~4.10.0",
     "forever": "^0.13.0"
-  }
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+	  "type": "git",
+	  "url": "https://github.com/jeremypagley/CettaApp"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ]
 }
